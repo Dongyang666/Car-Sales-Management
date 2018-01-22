@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<fx:root prefHeight="196.0" prefWidth="372.0" type="AnchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TextField fx:id="delete_cid" layoutX="121.0" layoutY="47.0" />
+      <Label layoutX="38.0" layoutY="52.0" text="客户编号：" />
+      <Button layoutX="121.0" layoutY="130.0" mnemonicParsing="false" onAction="#delete_customer_button" prefHeight="30.0" prefWidth="139.0" text="删除" />
+   </children>
+</fx:root>

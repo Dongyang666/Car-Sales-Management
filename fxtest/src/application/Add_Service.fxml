@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="431.0" prefWidth="598.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="24.0" layoutY="68.0" text="服务序号：" />
+      <Label layoutX="333.0" layoutY="58.0" text="车辆牌照：" />
+      <Label layoutX="24.0" layoutY="147.0" text="保修日期：" />
+      <Label layoutX="314.0" layoutY="147.0" text="保养人编号：" />
+      <Label layoutX="24.0" layoutY="238.0" text="客户编号：" />
+      <Label layoutX="322.0" layoutY="238.0" text="业务记录：" />
+      <Button layoutX="404.0" layoutY="375.0" mnemonicParsing="false" onAction="#add_service_button" prefHeight="30.0" prefWidth="116.0" text="记    录" />
+      <TextField fx:id="add_service_id" layoutX="100.0" layoutY="63.0" />
+      <TextField fx:id="add_sday" layoutX="100.0" layoutY="142.0" />
+      <ComboBox fx:id="add_scarid" layoutX="408.0" layoutY="53.0" onAction="#add_scaridAction" prefWidth="150.0" />
+      <ComboBox fx:id="add_sid" layoutX="408.0" layoutY="142.0" prefWidth="150.0" />
+      <TextField fx:id="add_srecord" layoutX="397.0" layoutY="233.0" prefHeight="30.0" prefWidth="171.0" />
+      <TextField fx:id="add_scid" layoutX="100.0" layoutY="233.0" />
+   </children>
+</fx:root>

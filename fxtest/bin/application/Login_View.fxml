@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="354.0" prefWidth="566.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="Account_Edit" layoutX="189.0" layoutY="132.0" prefHeight="37.0" prefWidth="224.0" />
+      <PasswordField fx:id="Password_Edit" layoutX="189.0" layoutY="188.0" prefHeight="37.0" prefWidth="224.0" />
+      <Button fx:id="LoginButton" layoutX="125.0" layoutY="265.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="37.0" prefWidth="134.0" text="登    陆" />
+      <Button fx:id="QuitButton" layoutX="312.0" layoutY="265.0" mnemonicParsing="false" onAction="#onQuitButtonClick" prefHeight="37.0" prefWidth="134.0" text="退    出" />
+      <Label layoutX="115.0" layoutY="188.0" prefHeight="30.0" prefWidth="61.0" text="密码：">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="115.0" layoutY="134.0" prefHeight="27.0" prefWidth="61.0" text="账号：">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="122.0" layoutY="31.0" prefHeight="73.0" prefWidth="361.0" text="汽车销售管理系统" textFill="#0a0a97" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>

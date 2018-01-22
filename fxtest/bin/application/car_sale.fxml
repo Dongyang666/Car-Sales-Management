@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="511.0" prefWidth="728.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="76.0" layoutY="46.0" text="客户信息">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="447.0" layoutY="26.0" text="卖出车型信息">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="325.0" orientation="VERTICAL" prefHeight="511.0" prefWidth="18.0" />
+      <Label layoutX="53.0" layoutY="122.0" text="客户编号：" />
+      <Label layoutX="53.0" layoutY="183.0" text="客户姓名：" />
+      <TextField fx:id="sale_cname" layoutX="128.0" layoutY="178.0" prefHeight="30.0" prefWidth="177.0" />
+      <Label layoutX="53.0" layoutY="246.0" text="客户等级：" />
+      <Label layoutX="57.0" layoutY="303.0" text="联系电话：" />
+      <Label layoutX="71.0" layoutY="341.0" text="地址：" />
+      <Label layoutX="53.0" layoutY="388.0" text="优惠项目：" />
+      <TextField fx:id="sale_cleveal" layoutX="128.0" layoutY="241.0" prefHeight="30.0" prefWidth="177.0" />
+      <TextField fx:id="sale_cnumber" layoutX="128.0" layoutY="298.0" prefHeight="30.0" prefWidth="177.0" />
+      <TextField fx:id="sale_caddress" layoutX="128.0" layoutY="346.0" prefHeight="30.0" prefWidth="177.0" />
+      <TextField fx:id="sale_cproduct" layoutX="128.0" layoutY="393.0" prefHeight="30.0" prefWidth="177.0" />
+      <Button layoutX="116.0" layoutY="444.0" mnemonicParsing="false" onAction="#show_car_information" prefHeight="30.0" prefWidth="119.0" text="显示" />
+      <Label layoutX="358.0" layoutY="73.0" text="销售序号：" />
+      <TextField fx:id="sale_id" layoutX="439.0" layoutY="68.0" prefHeight="30.0" prefWidth="147.0" />
+      <Label layoutX="358.0" layoutY="112.0" text="销售日期：" />
+      <TextField fx:id="sale_day" layoutX="439.0" layoutY="107.0" prefHeight="30.0" prefWidth="147.0" />
+      <Label layoutX="358.0" layoutY="158.0" text="轿车型号：" />
+      <TextField fx:id="sale_cmodel" layoutX="439.0" layoutY="153.0" prefHeight="30.0" prefWidth="147.0" />
+      <Label layoutX="384.0" layoutY="203.0" text="颜色：" />
+      <TextField fx:id="sale_color" layoutX="439.0" layoutY="198.0" prefHeight="30.0" prefWidth="147.0" />
+      <TextField fx:id="sale_number" layoutX="439.0" layoutY="251.0" prefHeight="30.0" prefWidth="147.0" />
+      <Label layoutX="385.0" layoutY="256.0" text="数量：" />
+      <Label layoutX="358.0" layoutY="303.0" text="实际售价：" />
+      <TextField fx:id="sale_price" layoutX="439.0" layoutY="298.0" prefHeight="30.0" prefWidth="147.0" />
+      <TextField fx:id="sale_saleman" layoutX="439.0" layoutY="346.0" prefHeight="30.0" prefWidth="147.0" />
+      <TextField fx:id="sale_cardid" layoutX="439.0" layoutY="383.0" prefHeight="30.0" prefWidth="147.0" />
+      <Label layoutX="366.0" layoutY="351.0" text="经手人：" />
+      <Label layoutX="358.0" layoutY="388.0" text="车辆牌照：" />
+      <Button layoutX="609.0" layoutY="434.0" mnemonicParsing="false" onAction="#sale_car_button" prefHeight="30.0" prefWidth="99.0" text="卖出" />
+      <ComboBox fx:id="sale_cid" layoutX="132.0" layoutY="117.0" prefWidth="150.0" />
+      <Label layoutX="384.0" layoutY="434.0" text="备注：" />
+      <TextField fx:id="sale_ps" layoutX="439.0" layoutY="429.0" prefHeight="30.0" prefWidth="147.0" />
+   </children>
+</fx:root>
